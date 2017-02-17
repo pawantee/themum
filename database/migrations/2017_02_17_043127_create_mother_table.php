@@ -28,11 +28,11 @@ class CreateMotherTable extends Migration
             $table->string('study_fathter');
             $table->string('tel_fathter');
             $table->string('address');
-            
+
             $table->integer('no_id');
             $table->integer('kid_id');
             $table->timestamps();
-            $table->softDeletes();
+            // $table->softDeletes();
         });
     }
 
